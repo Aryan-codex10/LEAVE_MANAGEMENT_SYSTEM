@@ -30,6 +30,7 @@ Developed as a submission for the Penthara Technologies Software Developer Inter
 - [Environment Variables](#environment-variables)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
+- [Images](#images)
 - [Demo Accounts](#demo-accounts)
 - [Validation and Error Handling](#validation-and-error-handling)
 - [Security](#security)
@@ -330,6 +331,28 @@ Open a new terminal window, navigate to the `/frontend` folder, and start the de
 cd frontend
 npm run dev
 ```
+
+---
+
+## Images
+
+### 1. Login Screen
+![Login Screen](assets/login.png)
+
+### 2. Employee Dashboard
+![Employee Dashboard](assets/employee-dashboard.png)
+
+### 3. Apply Leave Screen
+![Apply Leave Screen](assets/apply-leave.png)
+
+### 4. Leave History Screen
+![Leave History Screen](assets/leave-history.png)
+
+### 5. Admin Dashboard
+![Admin Dashboard](assets/admin-dashboard.png)
+
+### 6. Admin Review Screen
+![Admin Review Screen](assets/admin-review.png)
 
 ---
 
