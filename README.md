@@ -342,6 +342,11 @@ The database seed script initializes two accounts with the credentials below:
 | **Admin** | `admin@penthara.dev` | `admin123` |
 | **Employee** | `employee@penthara.dev` | `employee123` |
 
+**Note: For review convenience, if a user is not found, the backend creates them dynamically on-the-fly
+So if you want to login personally apart from these two accounts you can login with them also
+To login as employee write any mail address just don't have the word "admin" in the mail address
+To login as admin you have to write a mail address like this (admin@xyz.com) basically the mail must contain the word admin in it .**
+
 ---
 
 ## Validation and Error Handling
