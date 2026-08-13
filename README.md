@@ -29,6 +29,7 @@ Developed as a submission for the Penthara Technologies Software Developer Inter
 - [Database Design](#database-design)
 - [Environment Variables](#environment-variables)
 - [Installation](#installation)
+- [Quick Start (Fresh Clone)](#quick-start-fresh-clone)
 - [Running the Application](#running-the-application)
 - [Images](#images)
 - [Demo Accounts](#demo-accounts)
@@ -196,8 +197,7 @@ leave-management-system/
 │   ├── .env.example            # Frontend environment reference
 │   └── package.json            # Frontend dependency list
 ├── .gitignore                  # Git exclude criteria
-├── README.md                   # Clean document overview
-└── package.json                # Project reference root
+└── README.md                   # Clean document overview
 ```
 
 ---
@@ -307,6 +307,33 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your computer.
    cd ../frontend
    npm install
    ```
+
+---
+
+## Quick Start (Fresh Clone)
+
+Use these exact steps after cloning:
+
+1. Install dependencies:
+  - In `backend`, run `npm install`
+  - In `frontend`, run `npm install`
+
+2. Create environment files:
+  - Copy `backend/.env.example` to `backend/.env`
+  - Copy `frontend/.env.example` to `frontend/.env`
+
+3. Make sure MongoDB is running locally (or set a valid remote `MONGO_URI` in `backend/.env`).
+
+4. Seed demo data (optional but recommended):
+  - From `backend`, run `npm run seed`
+
+5. Start backend:
+  - From `backend`, run `npm run dev`
+
+6. Start frontend in a second terminal:
+  - From `frontend`, run `npm run dev`
+
+7. Open the frontend URL shown by Vite (usually `http://localhost:5173`).
 
 ---
 
